@@ -1,5 +1,4 @@
 from scapy.all import *
-from scapy.layers.dns import DNS, DNSQR, DNSRR
 
 legitimate_dns = {
     "example.com": "93.184.216.34"
